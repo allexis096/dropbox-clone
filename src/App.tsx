@@ -3,6 +3,7 @@ import React from 'react';
 import data from './data';
 
 import Section from './components/Section';
+import SideMenu from './components/SideMenu';
 
 import GlobalStyles from './styles/GlobalStyles';
 
@@ -34,6 +35,7 @@ function App() {
         title={data[4].title}
         description={data[4].description}
       />
+      <SideMenu />
       <GlobalStyles />
     </>
   );
