@@ -1,15 +1,22 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container, Content } from './styles';
 
 interface Props {
-  variants: 'blue' | 'beige' | 'white' | 'black';
+  variant: 'blue' | 'beige' | 'white' | 'black';
   title: string;
   description: string;
 }
 
-const Section: React.FC<Props> = () => {
-  return <div />;
+const Section: React.FC<Props> = ({ variant, title, description }) => {
+  return (
+    <Container className={variant}>
+      <Content>
+        <h2>{title}</h2>
+        <p>{description}</p>
+      </Content>
+    </Container>
+  );
 }
 
 export default Section;
