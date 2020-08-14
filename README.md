@@ -1,44 +1,56 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <img alt="Dropbox" src="https://imgur.com/BOKwKdd.jpg" width="400" />
+</p>
 
-## Available Scripts
+<h1 align="center">
+Dropbox UI Clone done of this <a href="https://www.youtube.com/watch?v=VqP1ECc_j4M">video</a>
+</h1>
 
-In the project directory, you can run:
+<h2 align="center">It's a responsive Dropbox clone!</h2>
 
-### `yarn start`
+<p align="center">
+  <a href="https://github.com/allexis096/dropbox-clone">
+    <img src="https://img.shields.io/github/languages/count/allexis096/dropbox-clone">
+  </a>
+  <a href="https://github.com/allexis096/dropbox-clone/graphs/commit-activity">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/allexis096/dropbox-clone?color=blue%22">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/license-MIT-brightgreen?color=blue" alt="License">
+  </a>
+</p>
+<p align="center">
+  <a href="https://reactjs.org/">
+  <img alt="ReactJS" src="https://img.shields.io/static/v1?color=blue&label=React&message=JS&?style=plastic&logo=React">
+  </a>
+  <a href="https://www.typescriptlang.org/">
+  <img alt="Typescript" src="https://img.shields.io/static/v1?color=blue&label=Typescript&message=TS&?style=plastic&logo=Typescript">
+  </a>
+  <a>
+    <img alt="Styled Components" src="https://img.shields.io/static/v1?color=blue&label=Styled%20Components&message=TS&?style=plastic&logo=Styled-Components">
+  </a>
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<hr>
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## How to run
 
-### `yarn test`
+```bash
+# Clone this project
+$ git clone https://github.com/allexis096/dropbox-clone
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Access this folder via terminal
+$ cd dropbox-clone
 
-### `yarn build`
+# Running the app
+$ yarn start
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# The server init in the port:3000 - access http://localhost:3000
+```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## License
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is under the MIT License. See the LICENSE for know more.
 
-### `yarn eject`
+Made with ❤ by Allexis Figueiredo 👋🏽 [Contact me!](https://www.linkedin.com/in/allexis-figueiredo)!
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
